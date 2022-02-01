@@ -1,2 +1,9 @@
 .DS_Store
 *.gem
+
+.idea/
+bin/
+doc/
+extensions/
+gems/
+specifications/
