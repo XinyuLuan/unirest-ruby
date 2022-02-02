@@ -8,13 +8,13 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/Moesif/unirest-ruby'
   s.license     = 'MIT'
 
-  s.add_dependency('rest-client', '>= 1.8.0')
-  s.add_dependency('json', '>= 1.8.1')
-  s.add_dependency('addressable', '~> 2.8.0')
+  s.add_dependency('rest-client', '~> 2.1', '>= 2.1.0')
+  s.add_dependency('json', '~> 2.6', '>= 2.6.1')
+  s.add_dependency('addressable', '~> 2.8', '>= 2.8.0')
 
-  s.add_development_dependency('shoulda', '~> 3.5.0')
-  s.add_development_dependency('test-unit')
-  s.add_development_dependency('rake')
+  s.add_development_dependency('shoulda', '~> 3.5', '>= 3.5.0')
+  s.add_development_dependency('test-unit', '~> 3.5', '>= 3.5.0')
+  s.add_development_dependency('rake', '~> 12.3', '>= 12.3.2')
 
   s.required_ruby_version = '>= 2.0'
 
